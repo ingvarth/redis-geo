@@ -20,7 +20,7 @@
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "ECSDemo-logs",
-                    "awslogs-region": "europe-west-2",
+                    "awslogs-region": "us-west-1",
                     "awslogs-stream-prefix": "awslogs-example"
                 }
             },
