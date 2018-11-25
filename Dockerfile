@@ -6,7 +6,7 @@ RUN dotnet restore --configfile NuGet.Config
 RUN dotnet publish -c Release -o out
 
 # Build runtime image
-FROM microsoft/dotnet:2.1.0-aspnetcore-runtime
+FROM microsoft/dotnet:2.1.6-aspnetcore-runtime
 WORKDIR /app
 COPY --from=build-env /app/RedisGeo/out .
 ENV ASPNETCORE_URLS http://*:5000
