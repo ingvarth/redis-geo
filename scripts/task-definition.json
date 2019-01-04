@@ -16,14 +16,14 @@
                     "protocol": "tcp"
                 }
             ],
-            "logConfiguration": {
+            /*"logConfiguration": {
                 "logDriver": "awslogs",
                 "options": {
                     "awslogs-group": "ECSDemo-logs",
                     "awslogs-region": "us-west-1",
                     "awslogs-stream-prefix": "awslogs-example"
                 }
-            },
+            },*/
             "environment": [
                 {
                     "name": "VIRTUAL_HOST",
